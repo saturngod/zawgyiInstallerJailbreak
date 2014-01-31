@@ -1,0 +1,1 @@
+Require [iOSOpenDev](http://iosopendev.com/). This project only include setup zawgyi font after extract deb. It's not including making deb package. Speical [Thent Thet](http://ttkz.me) for making installer idea with command line.

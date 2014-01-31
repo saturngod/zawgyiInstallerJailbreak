@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD39E7AB188015B100CBAF5E /* fontCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AD39E7AA188015B100CBAF5E /* fontCache.m */; };
+		C5D7A5AA187F90A2002BF43A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5D7A5A9187F90A2002BF43A /* Foundation.framework */; };
+		C5D7A5AD187F90A2002BF43A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D7A5AC187F90A2002BF43A /* main.m */; };
+		C5D7A5B1187F90A2002BF43A /* fontinstaller.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C5D7A5B0187F90A2002BF43A /* fontinstaller.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C5D7A5A4187F90A2002BF43A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C5D7A5B1187F90A2002BF43A /* fontinstaller.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD39E7A9188015B100CBAF5E /* fontCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fontCache.h; sourceTree = "<group>"; };
+		AD39E7AA188015B100CBAF5E /* fontCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fontCache.m; sourceTree = "<group>"; };
+		C5D7A5A6187F90A2002BF43A /* fontinstaller */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fontinstaller; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5D7A5A9187F90A2002BF43A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5D7A5AC187F90A2002BF43A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5D7A5AF187F90A2002BF43A /* fontinstaller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fontinstaller-Prefix.pch"; sourceTree = "<group>"; };
+		C5D7A5B0187F90A2002BF43A /* fontinstaller.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = fontinstaller.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5D7A5A3187F90A2002BF43A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D7A5AA187F90A2002BF43A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5D7A59B187F9054002BF43A = {
+			isa = PBXGroup;
+			children = (
+				C5D7A5AB187F90A2002BF43A /* fontinstaller */,
+				C5D7A5A8187F90A2002BF43A /* Frameworks */,
+				C5D7A5A7187F90A2002BF43A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D7A5A7187F90A2002BF43A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5D7A5A6187F90A2002BF43A /* fontinstaller */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5D7A5A8187F90A2002BF43A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5D7A5A9187F90A2002BF43A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5D7A5AB187F90A2002BF43A /* fontinstaller */ = {
+			isa = PBXGroup;
+			children = (
+				C5D7A5AC187F90A2002BF43A /* main.m */,
+				C5D7A5B0187F90A2002BF43A /* fontinstaller.1 */,
+				C5D7A5AE187F90A2002BF43A /* Supporting Files */,
+				AD39E7A9188015B100CBAF5E /* fontCache.h */,
+				AD39E7AA188015B100CBAF5E /* fontCache.m */,
+			);
+			path = fontinstaller;
+			sourceTree = "<group>";
+		};
+		C5D7A5AE187F90A2002BF43A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5D7A5AF187F90A2002BF43A /* fontinstaller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5D7A5A5187F90A2002BF43A /* fontinstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5D7A5B2187F90A2002BF43A /* Build configuration list for PBXNativeTarget "fontinstaller" */;
+			buildPhases = (
+				C5D7A5A2187F90A2002BF43A /* Sources */,
+				C5D7A5A3187F90A2002BF43A /* Frameworks */,
+				C5D7A5A4187F90A2002BF43A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fontinstaller;
+			productName = fontinstaller;
+			productReference = C5D7A5A6187F90A2002BF43A /* fontinstaller */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5D7A59C187F9054002BF43A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = C5D7A59F187F9054002BF43A /* Build configuration list for PBXProject "zawgyiInstall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5D7A59B187F9054002BF43A;
+			productRefGroup = C5D7A5A7187F90A2002BF43A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5D7A5A5187F90A2002BF43A /* fontinstaller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5D7A5A2187F90A2002BF43A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5D7A5AD187F90A2002BF43A /* main.m in Sources */,
+				AD39E7AB188015B100CBAF5E /* fontCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C5D7A5A0187F9054002BF43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C5D7A5A1187F9054002BF43A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C5D7A5B3187F90A2002BF43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fontinstaller/fontinstaller-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5D7A5B4187F90A2002BF43A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fontinstaller/fontinstaller-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5D7A59F187F9054002BF43A /* Build configuration list for PBXProject "zawgyiInstall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D7A5A0187F9054002BF43A /* Debug */,
+				C5D7A5A1187F9054002BF43A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5D7A5B2187F90A2002BF43A /* Build configuration list for PBXNativeTarget "fontinstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D7A5B3187F90A2002BF43A /* Debug */,
+				C5D7A5B4187F90A2002BF43A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5D7A59C187F9054002BF43A /* Project object */;
+}
